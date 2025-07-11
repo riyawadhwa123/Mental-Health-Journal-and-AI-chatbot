@@ -39,7 +39,7 @@ export default function ChatPage() {
     <div className="min-h-screen soft-gradient">
       <div className="container mx-auto px-4 py-8">
         <div className="h-[calc(100vh-8rem)]">
-          <Chatbot token={token} />
+          <Chatbot token={token ?? undefined} />
         </div>
       </div>
     </div>
